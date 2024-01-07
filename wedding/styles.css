@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor:default;
+}
+body{
+    background-color: #FCF8E8;
+}
+.container-img{
+    background-image: url("https://adammason.wpenginepowered.com/wp-content/uploads/2019/04/lincolns-cottage-wedding-13.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    color: #FCF8E8;
+    padding: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: 0.3s ease-in-out;
+}
+header a{
+    text-decoration: none;
+    color: #FCF8E8;
+    float: right;
+    margin: 0 10px;
+}
+header p{
+    display: inline-block;
+}
+#header.blend{
+    background-color: #DF7861;
+    font-size: 150%;
+    position :fixed;
+}
+h1{
+    color: #FCF8E8;
+    font-size: 5rem;
+}
+.testimonals-top h2{
+    line-height: 3rem;
+    font-size: 2.5rem;
+}
+h3{
+    text-align: center;
+    font-size: xx-large;
+}
+hr{
+    width: 10%;
+    border: 1px solid dimgray;
+    margin: 10px 45%;
+}
+img{
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+    position: relative ;
+    display: inline-block;
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+img::after{
+    transition: opacity 0.3s ease-in-out;
+    position: absolute ;
+    z-index: -1;
+    opacity: 0;
+}
+img:hover::after{
+    opacity: 1;
+}
+.main{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 200%;    
+    padding: 10%;
+}
+.main p{
+    margin: 15px;
+    color: #FCF8E8;
+    font-size: 3rem;
+}
+.testimonals-top{
+    text-align: center;
+    margin: 5% 10%;
+}
+.testimonals-top-text{
+    padding: 3%;
+}
+.testimonals-top-text{
+    display: inline-block;
+}
+.testimonals{
+    margin: 3% 5% 8%;
+}
+.testimonals p{
+    padding: 2%;
+}
+.testimonals img{
+    aspect-ratio: 3/4;
+}
+.card{
+    width: 18rem;
+    margin-bottom:5% ;
+}
+
+.service{
+    display: flex;
+    margin: 20px 10%;
+}
+.service li{
+    padding: 6px;
+    list-style: none;
+}
+
+.name{
+    font-size: x-large;
+}
+
+.text{
+    text-align: center;
+}
+.add p{
+    line-height: 25px;
+    font-size: large;
+}
+
+.address hr{
+    display: none;
+}
+
+.btn {
+    background: #ecb390;
+    background-image: linear-gradient(to bottom, #ecb390, #df7861);
+    border-radius: 10px;
+    font-family: Georgia;
+    color: #FCF8E8;
+    font-size: 20px;
+    border: 0;
+    margin: 20px 0;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 50%;
+  }
+.btn:hover {
+    background: #94b49f;
+    background-image: linear-gradient(to bottom, #94b49f, #94b48f);
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-logo{
+    float: left;
+}
+footer{
+    height: auto;
+    text-align: center;
+    padding: 2%;
+    background-color: #DF7861;
+    color: #FCF8E8;
+    font-size: 125%;
+}
+footer a{
+    margin: auto 2%;
+    text-decoration: none;
+    color: #FCF8E8;
+    font-size: 125%;
+}
+footer p{
+    margin: 2%;
+}
+
+@media (max-width:950px) {
+    header{
+        font-size: 200%;
+        text-align: center;
+    }
+    header a{
+        display: none;
+    }
+    .main{
+        display: inline-block;
+    }
+    .address hr{
+        display: block;
+    }
+    
+}
