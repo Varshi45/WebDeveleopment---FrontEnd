@@ -1,0 +1,126 @@
+/* General */
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* carousel */
+#carousel img {
+  width: 100%;
+  height: auto;
+}
+
+/* logo */
+.logo {
+  border-radius: 100%;
+  width: 80px;
+  height: 70px;
+}
+
+.logo-text {
+  margin: 2%;
+  color: #ff4c68;
+}
+
+
+/* navbar */
+h1{
+  display: none;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.nav-link{
+  color: #ff4c68;
+  margin: auto 30px;
+}
+
+.navbar {
+  background-color: whitesmoke;
+}
+
+/* column padding */
+.utilities {
+  padding: 0;
+}
+
+
+/* cards */
+.card {
+  border: none;
+  text-align: center;
+}
+
+.card-img-overlay a {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+}
+
+/* history */
+.history{
+  background-image: url("https://thumbs.dreamstime.com/b/top-view-coffee-background-top-view-coffee-background-assorted-coffee-beans-ground-coffee-portafilter-tamper-dark-137656241.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.history img{
+  margin:10%;
+}
+
+
+/* social media */
+.social-media{
+  margin: 3% auto;
+  text-align: center;
+}
+.social-media-link{
+  color: #e60a0a;
+  margin: auto 1%;
+  font-size: 3rem;
+}
+
+/* footer */
+hr{
+  width: 90%;
+  margin-left: 5%;
+}
+.footer-mobile,.footer{
+  margin-left: 5%;
+}
+.footer-mobile a,.footer a{
+  color: dimgray;
+}
+.footer-mobile{
+  display: none;
+  text-align: center;
+}
+.footer-mobile a{
+  margin: auto 5%;
+}
+
+@media (max-width:990px) {
+  .footer{
+    display: none;
+  }
+  .footer-mobile{
+    display: block;
+  }
+  h1{
+    display: block;
+  }
+  .history img{
+    width: 75%;
+    margin: 10%;
+  }
+}
